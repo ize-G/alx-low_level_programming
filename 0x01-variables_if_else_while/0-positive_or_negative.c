@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 
-/* Assigns a random number and prints out whether the stored number is +ve or-ve */
+/* Prints out whether the stored number is +ve or-ve */
 
-/*
+/**
  * main - Entry point
  *
  * Return: Always 0 (Success)
