@@ -2,8 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/** Assigns a random number to a variable and prints 
- * out whether the stored number is positive or negative */
+/**
+ *  Assigns a random number to a variable and prints
+ * out whether the stored number is positive or negative
+ */
 
 /**
  * main - Entry point
@@ -16,6 +18,7 @@ int main(void)
 {
 
 		int n;
+
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
 
