@@ -1,1 +1,1 @@
-This repository contains all projects for the low level C-programming on ALX
+This repositort contains all of ALX projects on nested loops
