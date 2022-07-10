@@ -2,7 +2,9 @@
 #include <stdio.h>
 
 /**
- * main- Prints the number 1 to 10 followed by a new line
+ * main- Entry point
+ *
+ * Description: Prints the number 1 to 10 followed by a new line
  *	for multiples of 3 print Fizz
  *	for multiples of 5 print Buzz
  *	for multiples of both 3 and 5 print FizzBuzz
@@ -16,19 +18,15 @@ int i;
 for (i = 1; i <= 100; i++)
 {
 if (i % 15 == 0)
-{
-printf("FizzBuzz ");
-}
+printf("FizzBuzz");
 else if (i % 3 == 0)
-{
-printf("Fizz ");
-}
+printf("Fizz");
 else if (i % 5 == 0)
-{
-printf("Buzz ");
-}
+printf("Buzz");
 else
 printf("%i ", i);
+if (i < 100)
+printf(" ");
 }
 printf("\n");
 return (0);
