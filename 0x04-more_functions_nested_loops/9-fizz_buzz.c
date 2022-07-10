@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main- Prints the number 1 to 10 followed by a new line
