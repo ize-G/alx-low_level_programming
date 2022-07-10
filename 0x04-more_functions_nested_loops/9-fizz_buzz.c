@@ -4,7 +4,7 @@
 /**
  * main- Entry point
  *
- * Description: Prints the number 1 to 10 followed by a new line
+ * Description: Prints the number 1 to 100 followed by a new line
  *	for multiples of 3 print Fizz
  *	for multiples of 5 print Buzz
  *	for multiples of both 3 and 5 print FizzBuzz
@@ -24,7 +24,7 @@ printf("Fizz");
 else if (i % 5 == 0)
 printf("Buzz");
 else
-printf("%i ", i);
+printf("%i", i);
 if (i < 100)
 printf(" ");
 }
