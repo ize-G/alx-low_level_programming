@@ -1,1 +1,1 @@
-The directory contains all the tasks for the ALX pointers, arrays and strings introductory concepts
+This repositort contains all of ALX projects on nested loops
