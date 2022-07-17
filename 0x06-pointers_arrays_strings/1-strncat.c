@@ -19,7 +19,7 @@ char *_strncat(char *dest, char *src, int n)
 		l_dest++;
 	}
 
-	while (j > n && src[j] != '\0')
+	while (j < n && src[j] != '\0')
 	{
 		/* copy src into dest overwritting the null byte */
 		dest[l_dest] = src[j];
