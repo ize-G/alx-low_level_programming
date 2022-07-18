@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * string_toupper - changes all lowercase letters of a string
- *	to uppercase.
+ * cap_string - capitalizes the first letter of each word
  * @str: string to be computed
  *
  * Return: the computed string in uppercase.
  */
-char *string_toupper(char *str)
+char *cap_string(char *str)
 {
 int i = 0;
 char s[] = {32, 9, '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '{'};
