@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers - prints out a passed integer
+ * print_number - prints out a passed integer
  *
  * @n: number/integer to be send to standard output
  *
